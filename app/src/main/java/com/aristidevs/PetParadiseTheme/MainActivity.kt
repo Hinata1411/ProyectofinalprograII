@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val swDarkMode = findViewById<SwitchMaterial>(R.id.swDarkMode)
         val ivModo = findViewById<ImageView>(R.id.ivModo)
 
-
+        //Aplicar los temas claro y oscuro
         swDarkMode.setOnCheckedChangeListener { _, isSelected ->
             if (isSelected){
                 enableDarkMode();
@@ -29,12 +29,14 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    //Función para activar el modo oscuro
     private fun enableDarkMode(){
         AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_YES)
         delegate.applyDayNight()
 
     }
 
+    //Función para desactivar el modo oscuro
     private fun disableDarkMode(){
         AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_NO)
         delegate.applyDayNight()
@@ -42,8 +44,6 @@ class MainActivity : AppCompatActivity() {
 
 
 }
-
-
 
 
 

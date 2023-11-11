@@ -12,6 +12,9 @@
         android:theme="@style/Theme.DarkModeExample"
         tools:targetApi="31">
         <activity
+            android:name="com.aristidevs.PetParadiseTheme.HomeActivity"
+            android:exported="false" />
+        <activity
             android:name="com.aristidevs.PetParadiseTheme.MainActivity"
             android:exported="true">
             <intent-filter>
