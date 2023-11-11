@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="treepoppy100">#FFfff2c5</color>
+    <color name="treepoppy200">#FFffe585</color>
+    <color name="treepoppy300">#FFffd246</color>
+    <color name="treepoppy400">#FFffbc1b</color>
+    <color name="treepoppy500">#FFf79400</color>
+    <color name="treepoppy600">#FFe27100</color>
+    <color name="treepoppy700">#FFbb4d02</color>
+    <color name="treepoppy800">#FF983b08</color>
+    <color name="treepoppy900">#FF7c310b</color>
+</resources>

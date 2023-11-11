@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base de la aplicación -->
+    <style name="Theme.DarkModeExample" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Colores principales de la marca -->
+        <item name="colorPrimary">@color/bigstone900</item>
+        <item name="colorPrimaryVariant">@color/bigstone800</item>
+        <item name="colorOnPrimary">@color/bigstone500</item>
+
+        <!-- Colores secundarios de la marca -->
+        <item name="colorSecondary">@color/bigstone700</item>
+        <item name="colorSecondaryVariant">@color/bigstone600</item>
+        <item name="colorOnSecondary">@color/bigstone400</item>
+        <!-- Color del Status de la marca -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+    </style>
+    <style name="TITLE">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/bigstone200</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

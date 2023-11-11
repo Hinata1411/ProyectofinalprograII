@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bigstone100">#FFe9edf5</color>
+    <color name="bigstone200">#FFcfd9e8</color>
+    <color name="bigstone300">#FFa4b7d5</color>
+    <color name="bigstone400">#FF7391bd</color>
+    <color name="bigstone500">#FF5173a6</color>
+    <color name="bigstone600">#FF3f5c8a</color>
+    <color name="bigstone700">#FF344a70</color>
+    <color name="bigstone800">#FF2e405e</color>
+    <color name="bigstone900">#FF263248</color>
+</resources>

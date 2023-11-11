@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "182671906308",
+    "project_id": "loginfirebaseapp-bd70a",
+    "storage_bucket": "loginfirebaseapp-bd70a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182671906308:android:98d25feddb78309afa4751",
+        "android_client_info": {
+          "package_name": "com.aristidevs.darkmodeexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZCxwIt1BElSuXb2UROZp66D9xaG_nyO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
