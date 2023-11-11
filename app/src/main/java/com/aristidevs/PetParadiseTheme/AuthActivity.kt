@@ -10,18 +10,19 @@ import androidx.appcompat.app.AppCompatActivity
 import com.aristidevs.darkmodeexample.R
 import com.google.firebase.auth.FirebaseAuth
 
-class AuthActivity:AppCompatActivity() {
+
+class AuthActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //main en donde se muestra el login de nuestra app ya que sin registrarse no pueden ingresar
+        setContentView(R.layout.activity_auth)
 
-        //Setup
-        setup()
-
+       setup()
 
     }
 
 
-        //Función para la pantalla de autenticación
+    //Función para la pantalla de autenticación
     @SuppressLint("WrongViewCast")
     private fun setup(){
         title  = "Autenticación"
@@ -86,3 +87,11 @@ class AuthActivity:AppCompatActivity() {
     }
 
 }
+
+
+
+
+
+
+
+

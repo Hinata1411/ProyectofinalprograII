@@ -15,7 +15,7 @@
             android:name="com.aristidevs.PetParadiseTheme.HomeActivity"
             android:exported="false" />
         <activity
-            android:name="com.aristidevs.PetParadiseTheme.MainActivity"
+            android:name="com.aristidevs.PetParadiseTheme.AuthActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
